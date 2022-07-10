@@ -1,18 +1,34 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+Body{
   background-color: #FAD7A0;
+}
+.navbar{
+  background-color: #212F3D;
+}
+div h1{
+  font-family: "Yellowtail", cursive;
 }
 .item {
   border: 2px solid #212F3D;
   padding: 10px;
   border-radius: 20px;
+  background-color: #fff;
 }
 
 .item-title {
+  font-family: 'Bebas Neue', cursive;
   text-transform: uppercase;
   text-align: center;
   font-weight: 600;
+  color: #fff;
 }
-
+.item-button{
+  background-color: #212F3D;
+  border: #212F3D;
+  color: #fff;
+}
 .item-image {
   height: 300px;
   width: 100%;
@@ -23,6 +39,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 20px 0px 15px;
+  color: #fff;
 }
 
 .item-details > .item-price {
@@ -35,7 +52,7 @@ body {
 }
 
 .shopping-cart-header {
-  border-bottom: 1px solid #FAD7A0;
+  border-bottom: 1px solid #212F3D;
 }
 
 .shopping-cart-image {
@@ -47,7 +64,7 @@ body {
   max-width: 45px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background: #eee;
+  background: rgb(250, 252, 250);
   padding: 5px;
 }
 
